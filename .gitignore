@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Instance folder (often contains secrets or local DB)
+instance/
+
+# Flask environment files
+.flaskenv
