@@ -7,10 +7,10 @@ from flask import Flask, send_from_directory
 from flask_cors import CORS
 #from models.user import db
 #from routes.user import user_bp
-from routes.registration import registration_bp
-from routes.tickets import tickets_bp
+from src.routes.registration import registration_bp
+from src.routes.tickets import tickets_bp
 #from routes.chatbot import chatbot_bp
-from routes.gemini import gemini_bp
+from src.routes.gemini import gemini_bp
 
 app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
 app.config['SECRET_KEY'] = 'asdf#FGSgvasgf$5$WGT'
